@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;500;600;700&family=Epilogue:wght@500;700&family=Inter:wght@100;200;400;800;900&family=Josefin+Sans:wght@400;700&family=Manrope:wght@200&family=Merienda:wght@300;600&family=Merriweather:wght@300&family=Outfit:wght@700&family=Overpass:wght@400;700&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 10%;
+    width: 100%;
+}
+.part1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.part1 ul{
+    width: 100%;
+    height: 100%;
+}
+ul li{
+    float: left;
+    list-style: none;
+    padding-left: 25px;
+   padding-top: 20px;
+    color: hsl(0, 0%, 8%);
+}
+.snap{
+    font-weight: bold;
+    font-size: 30px;
+}
+.part2{
+    width:30%;
+    position: relative;
+    left: 65%;
+    height: 100%;
+    
+}
+.part2 button{
+    position: relative;
+    bottom: 40px;
+    width: 30%;
+    left: 10px;
+    height: 50%;
+    border: none;
+    color: hsl(0, 0%, 8%);
+    background: none;
+}
+button .reg{
+    border:1px solid hsl(0, 0%, 8%);
+    border-radius: 20px;
+}
+.container{
+    height: 80%;
+ 
+    width: 80%;
+    margin: auto;
+}
+.box1{
+    width: 55%;
+    height: 100%;
+   
+}
+.box2{
+    width: 45%;
+    height: 100%;
+    
+    position: relative;
+}
+.container img{
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 55%;
+    bottom: 100%;
+}
+.box1 p{
+    color: hsl(0, 0%, 41%);
+}
+.box1 h1{
+    font-size: 30px;
+}
+.box1 button{
+    width: 25%;
+    height: 10%;
+    background: black;
+    color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    border: none;
+}
+.images{
+    width: 100%;
+    height: 13%;
+    
+    position: relative;
+    top: 4%;
+}
+.images img{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    top: 4%;
+    left: 5%;
+}
