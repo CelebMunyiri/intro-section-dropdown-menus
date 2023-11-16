@@ -94,6 +94,7 @@ ul li{
 }
 .box1 h1{
     font-size: 30px;
+    font-weight: 700;
 }
 .box1 button{
     width: 25%;
@@ -115,5 +116,5 @@ ul li{
     height: 60%;
     position: relative;
     top: 4%;
-    left: 5%;
+    left: 1%;
 }
